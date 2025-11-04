@@ -1,6 +1,6 @@
-#🐬 sql_cheatsheet
+# 🐬 sql_cheatsheet
 
-###Guía completa para limpiar instalaciones viejas de MySQL, configurar correctamente la versión de Oracle 8.0.43, reparar permisos y verificar la conexión local en macOS.
+### Guía completa para limpiar instalaciones viejas de MySQL, configurar correctamente la versión de Oracle 8.0.43, reparar permisos y verificar la conexión local en macOS.
 
 Ver qué MySQL está tomando tu terminal
 ```bash
@@ -63,9 +63,9 @@ sudo /usr/local/mysql/support-files/mysql.server start
 sudo /usr/local/mysql/support-files/mysql.server status
 ```
 Debería mostrar algo como:
-###mysql  Ver 8.0.43 for macos15 on x86_64 (MySQL Community Server - GPL)
+### mysql  Ver 8.0.43 for macos15 on x86_64 (MySQL Community Server - GPL)
 
-#Diagnóstico y reparación de errores de arranque
+# Diagnóstico y reparación de errores de arranque
 Ver procesos y quién usa el puerto 3306
 ```bash
 pgrep -fal mysqld
@@ -82,7 +82,7 @@ sudo killall mysqld || true
 pgrep -fal mysqld
 ```
 
-###Arreglar permisos y preparar carpeta de socket
+### Arreglar permisos y preparar carpeta de socket
 ```bash
 sudo chown -R _mysql:_mysql /usr/local/mysql/data
 sudo chmod 750 /usr/local/mysql/data
@@ -110,7 +110,7 @@ Si ves la versión 8.0.43, tu servidor MySQL está funcionando correctamente.
 
 
 
-###elviejo
+### elviejo
 1) Ver qué mysql está tomando tu terminal
 ```bash
 which -a mysql
