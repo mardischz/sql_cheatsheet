@@ -110,7 +110,7 @@ Si ves la versión 8.0.43, tu servidor MySQL está funcionando correctamente.
 
 
 
-### elviejo
+# elviejo
 1) Ver qué mysql está tomando tu terminal
 ```bash
 which -a mysql
